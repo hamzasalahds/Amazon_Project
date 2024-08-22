@@ -109,6 +109,9 @@ The primary objective of the project was to develop a system capable of analyzin
 ## Summary
 Implementing targeted training initiatives alongside our Excel-based performance tracking system resulted in significant improvements in sorting efficiency and productivity in our 300+ employee department, leading to a 10% performance increase and the processing of over 262,000 items.
 
+## Screenshot of Dashboard
+![image](https://github.com/user-attachments/assets/a3002ad8-7d7d-4ac2-8ea7-e841256bad79)
+
 ## Evaluation
 The system underwent iterations and improvements, including color adjustments for visibility and the addition of new metrics like safety reports.
 
