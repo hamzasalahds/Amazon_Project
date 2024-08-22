@@ -113,7 +113,13 @@ Implementing targeted training initiatives alongside our Excel-based performance
 ![image](https://github.com/user-attachments/assets/a3002ad8-7d7d-4ac2-8ea7-e841256bad79)
 
 ## Evaluation
-The system underwent iterations and improvements, including color adjustments for visibility and the addition of new metrics like safety reports.
+The system underwent multiple iterations and improvements to enhance its functionality and user experience. Key updates included:
+
+- **Color Adjustments**: Improved color schemes for better visibility and readability, making it easier for users to interpret the data at a glance.
+- **Enhanced Metrics**: Added new metrics such as safety reports to provide a more comprehensive view of employee performance and operational safety.
+- **Dashboard Refinements**: Updated visualizations and layouts to ensure the dashboard remained user-friendly, even for less technical users, with clear and actionable insights.
+- **Optimization**: Streamlined calculations and reduced complexity to improve system performance, ensuring quicker data processing and smoother user interactions.
+
 
 
 
