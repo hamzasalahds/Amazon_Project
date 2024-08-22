@@ -138,7 +138,7 @@ Forecasts: ```=IF(B5=0,NA(),FORECAST.ETS(A6,B4:B5,A4:A5))```
 
 - Use a combination of IF, MIN, and MAX to generate this formula.
 
-![image](https://github.com/user-attachments/assets/b9d003f7-fde4-473c-bcb9-277ce1e95191)
+![image](https://github.com/user-attachments/assets/23af2224-b798-46ab-9bf7-08b1a7df8c8e)
 
 
 ## Work Details
