@@ -18,6 +18,7 @@ The primary objective of the project was to develop a system capable of analyzin
 
 ## System Creation Process
 1. Identified Stakeholders:
+
 - The Ops Team.
 - Included a total of 10 people and end users.
 
@@ -31,8 +32,8 @@ The primary objective of the project was to develop a system capable of analyzin
 
 
 ## Reporting: 
--  The need for specific reports and dashboards to visualize performance trends and identify areas for improvement.
 
+-  The need for specific reports and dashboards to visualize performance trends and identify areas for improvement.
 
 3. Designed the System:
 
@@ -52,6 +53,7 @@ The primary objective of the project was to develop a system capable of analyzin
 
 
 ## Technical Skills
+
 - I employed a range of technical skills and tools including Microsoft Office Tools such as Excel.
 
 - I used charts, dashboards, calculations, functions, and lookup methods. 
@@ -59,6 +61,7 @@ The primary objective of the project was to develop a system capable of analyzin
 - I utilized resources such as Amazon’s internal wiki and learning materials to enhance my understanding and effectiveness in project development.
 
 ## Project Steps
+
 - Identified Metrics that will be used to define the KPIs.
 
 - Imported employee CSV data sheets, including only relevant columns.
@@ -72,12 +75,14 @@ The primary objective of the project was to develop a system capable of analyzin
 - Created a dashboard that included metrics.
 
 ### Data Collection and Preparation
+
 - The primary data sources utilized for analysis were CSV files exported from various internal sources relevant to the scope of the project.
 
 - In the project, I heavily relied on data importation techniques to transform and clean data within Excel using power query. 
 
 
 ### Data Cleaning and Preprocessing:
+
 - I imported the CSV files directly into Excel worksheets using the "From Text/CSV" option in the "Data" tab.
 
 - Upon import, I carefully examined the data in power query to identify any inconsistencies, missing values, or formatting issues.
@@ -87,6 +92,7 @@ The primary objective of the project was to develop a system capable of analyzin
 - After cleaning, I formatted data types, and standardized text fields to prepare the data for analysis.
 
 ### Some challenges with the data
+
 - Data needed transformations to be usable in formulas.
 
 - No Summarizations included.
@@ -105,7 +111,13 @@ Some of the analyses performed include:
 
 
 ## Headcount Analysis
+
 - Performed headcount analysis and forecasts.
+
+- Compare planned headcount with digital and actual headcount to identify those who are not working and Keep costs low
+```=COUNTIF('AA H.Rate'!H7:H3828, "<>0")```
+
+Forecasts: ```=IF(B5=0,NA(),FORECAST.ETS(A6,B4:B5,A4:A5))```
 
 - Compared planned headcount with digital and actual headcounts.
 
@@ -117,6 +129,7 @@ Some of the analyses performed include:
 
 
 ## Employee Rates
+
 - Employee Rates were tracked on an individual level and group level.
 
 - Lookup functions were used to retrieve AA rates from imported sheets each hour.
@@ -129,6 +142,12 @@ Some of the analyses performed include:
 
 
 ## Work Details
+
+- Typing an emp_id you can retrieve work information of associate including function time each hour
+``=IFERROR(VLOOKUP(E4,'2100'!D:J,5,FALSE),0)``
+
+- help identify time working on small, medium, large, heavy bulky items, total hours combined for each hour, time on task(mins), Time off task(mins) and a vertical stacked graph graph visualizing the function time.
+
 - Created a sheet that serves as a comprehensive repository of employee work details. By entering an employee ID, users gain access to the associate's work specifics, which include hourly function time and rates. The sheet dynamically retrieves data from the employee rate sheet based on the provided employee ID, leveraging VLOOKUP functionality.​
 
 - Showcases the duration spent on different tasks such as small, medium, large, and bulky items, along with the total hours worked per hour. Additionally, it also aids in calculating time on task and time off task in minutes. ​
@@ -140,6 +159,7 @@ Some of the analyses performed include:
 
 
 ## Other Metrics
+
 - Work Piles​
 
 ​- Successful diverts and forecasts​
@@ -152,6 +172,7 @@ Some of the analyses performed include:
 
 ​
 ## Challenges & Solutions​
+
 - Throughout the Project, I encountered several challenges, including: ​
 
 ​- Performance Issues​
@@ -168,6 +189,7 @@ Some of the analyses performed include:
 --
 
 Purposed Training Initiatives​
+
 - ​Collaborated with senior management to provide targeted training for 50 employees using a variety of formats, such as classroom training or on-the-job training.​
 
 1- Utilized the employee system to track performance metrics such as items processed, error rates, TOT, and task completion times to identify areas to identify employees who are struggling.​
@@ -178,6 +200,7 @@ Purposed Training Initiatives​
 
 ​
 ## Impact
+
 - The Project had a profound impact on the organization, resulting in improvements in employee performance and decision-making processes. ​
 
 - ​Through targeted training, we achieved a 10% improvement in sorting efficiency and provided valuable insights for strategic decision-making, ultimately contributing to the organization's success and competitiveness.​
